@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    tools:context="com.cat.aliassistantclient.SaveDisableTimeActivity" >
+
+    <EditText
+        android:id="@+id/et_DisableTime1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="20"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:textColor="#f7ae00"
+        android:textSize="25sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_DisableTime2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="20"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:textColor="#f7ae00"
+        android:textSize="25sp" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/ll_btngroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_SaveDisableTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btnSaveDisableTimeClick"
+            android:text="@string/save_clawler_disabletime"
+            android:textSize="25sp" >
+
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">招财宝助手</string>
+    <string name="refress_rate">刷新</string>
+    <string name="set_clawler_disabletime">设置</string>
+    <string name="save_clawler_disabletime">保存参数</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
